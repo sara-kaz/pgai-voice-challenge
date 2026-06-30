@@ -15,7 +15,7 @@ An automated **patient caller** that phones Pretty Good AI's test clinic line, h
 | Architecture doc | [ARCHITECTURE.md](ARCHITECTURE.md) — see the **Summary** section at the top for the 1–2 paragraph version |
 | Call transcripts & recordings | [`transcripts/`](transcripts/) and [`recordings/`](recordings/) — 20 calls across 17 scenarios, all `.mp3` |
 | Bug report | [BUG_REPORT.md](BUG_REPORT.md) |
-| Loom walkthrough (max 5 min) | _TODO: add link_ |
+| Loom walkthrough (max 5 min) |[Full Recording](https://www.loom.com/share/5750342a89ab4cafb318a54be992937b)|
 | Debugging screen recording | [Part 1](https://www.loom.com/share/a7c262546f1d4c67b4f1a82f4bcfafb6), [Part 2](https://www.loom.com/share/10f719e74f124b84a8fd0cc8e4d1c2aa) |
 
 ---
