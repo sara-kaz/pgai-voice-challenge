@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Pretty Good AI — Voice Bot Tester</title>
+<style>
+  body { font-family: -apple-system, Helvetica, Arial, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+  h1 { font-size: 1.4rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+  .note { color: #666; font-size: 0.9rem; }
+  .grid { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+  button.scenario { padding: 0.5rem 0.9rem; border: 1px solid #bbb; border-radius: 6px; background: #fafafa; cursor: pointer; font-size: 0.9rem; }
+  button.scenario:hover { background: #eee; }
+  button.scenario.has-results { border-color: #2a7a2a; background: #f2fbf2; }
+  #callStatus, #resultsStatus { margin-top: 1rem; padding: 0.6rem 0.8rem; border-radius: 6px; background: #f0f0f0; font-size: 0.9rem; white-space: pre-wrap; }
+  #resultPane { margin-top: 1rem; }
+  #resultPane pre { background: #f7f7f7; padding: 1rem; border-radius: 6px; overflow-x: auto; white-space: pre-wrap; font-size: 0.85rem; }
+  audio { width: 100%; margin-top: 0.5rem; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+
+<h1>Pretty Good AI — Voice Bot Tester</h1>
+<p class="note">
+  This is an optional convenience UI on top of the existing CLI tools
+  (<code>place_call.py</code>, <code>analyze.py</code>, <code>generate_bug_report.py</code>) —
+  everything here can also be run from the command line as documented in
+  <a href="https://github.com" target="_blank" rel="noopener">README.md</a>.
+  The server you're viewing this page from must already be exposed via ngrok (or similar)
+  for "Place a new call" to work, exactly as the CLI requires.
+</p>
+
+<h2>Place a new call</h2>
+<p class="note">Click a scenario to dial the clinic's test line with that persona. This costs real Twilio/OpenAI usage.</p>
+<div id="placeGrid" class="grid"></div>
+<div id="callStatus" class="hidden"></div>
+
+<h2>View results from a previous call</h2>
+<p class="note">Scenarios with a green outline already have at least one completed call on disk.</p>
+<div id="resultsGrid" class="grid"></div>
+<div id="resultsStatus" class="hidden"></div>
+
+<div id="resultPane" class="hidden">
+  <h3 id="resultTitle"></h3>
+  <p class="note" id="resultMeta"></p>
+  <audio id="resultAudio" controls></audio>
+  <h4>Transcript</h4>
+  <pre id="resultTranscript"></pre>
+  <h4>Bug report (draft)</h4>
+  <pre id="resultBugReport"></pre>
+</div>
+
+<script>
+async function loadScenarios() {
+  const placeGrid = document.getElementById('placeGrid');
+  const resultsGrid = document.getElementById('resultsGrid');
+  placeGrid.textContent = 'Loading scenarios...';
+  resultsGrid.textContent = '';
+
+  let scenarios, results;
+  try {
+    const res = await fetch('/api/scenarios');
+    if (!res.ok) throw new Error(`/api/scenarios returned HTTP ${res.status}`);
+    scenarios = await res.json();
+
+    const resultsRes = await fetch('/api/results');
+    if (!resultsRes.ok) throw new Error(`/api/results returned HTTP ${resultsRes.status}`);
+    results = await resultsRes.json();
+  } catch (err) {
+    placeGrid.textContent = '';
+    resultsGrid.textContent = '';
+    const msg = document.createElement('div');
+    msg.id = 'loadError';
+    msg.style.cssText = 'color:#a00; background:#fdeaea; border:1px solid #f0bcbc; border-radius:6px; padding:0.8rem; font-size:0.9rem;';
+    msg.textContent =
+      `Couldn't load scenarios (${err.message}). This page must be opened from the ` +
+      `running server's own URL (e.g. http://localhost:8000/), not opened directly as a ` +
+      `local file — double-clicking static/index.html or using a file:// path won't work, ` +
+      `since the page needs to call the server's API. Make sure the server is running ` +
+      `(uvicorn app.server:app --port 8000) and you're viewing it at the address it prints.`;
+    placeGrid.appendChild(msg);
+    return;
+  }
+
+  placeGrid.textContent = '';
+  const withResults = new Set(results.map(r => r.scenario));
+
+  scenarios.forEach(s => {
+    const placeBtn = document.createElement('button');
+    placeBtn.className = 'scenario';
+    placeBtn.textContent = s.key;
+    placeBtn.title = s.description;
+    placeBtn.onclick = () => placeCall(s.key);
+    placeGrid.appendChild(placeBtn);
+
+    if (withResults.has(s.key)) {
+      const resBtn = document.createElement('button');
+      resBtn.className = 'scenario has-results';
+      resBtn.textContent = s.key;
+      resBtn.title = s.description;
+      resBtn.onclick = () => showResult(s.key);
+      resultsGrid.appendChild(resBtn);
+    }
+  });
+}
+
+async function placeCall(scenarioKey) {
+  const statusEl = document.getElementById('callStatus');
+  statusEl.classList.remove('hidden');
+  statusEl.textContent = `Placing call for "${scenarioKey}"...`;
+  try {
+    const res = await fetch('/api/calls', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ scenario: scenarioKey }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || 'Failed to place call');
+    statusEl.textContent =
+      `Call placed. CallSid=${data.call_sid}\n` +
+      `The call is live now — recording, transcript, and bug analysis will all ` +
+      `appear automatically under "View results" a few minutes after it ends.`;
+  } catch (err) {
+    statusEl.textContent = `Error: ${err.message}`;
+  }
+}
+
+async function showResult(scenarioKey) {
+  const statusEl = document.getElementById('resultsStatus');
+  const pane = document.getElementById('resultPane');
+  statusEl.classList.remove('hidden');
+  statusEl.textContent = `Loading "${scenarioKey}"...`;
+  try {
+    const res = await fetch(`/api/results/${encodeURIComponent(scenarioKey)}`);
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.detail || 'Failed to load results');
+
+    statusEl.classList.add('hidden');
+    pane.classList.remove('hidden');
+    document.getElementById('resultTitle').textContent = scenarioKey;
+    document.getElementById('resultMeta').textContent = `CallSid: ${data.call_sid}`;
+    document.getElementById('resultAudio').src = data.recording_url;
+    document.getElementById('resultTranscript').textContent = data.transcript;
+    document.getElementById('resultBugReport').textContent = data.bug_report || '(no draft yet — analysis may still be running)';
+  } catch (err) {
+    pane.classList.add('hidden');
+    statusEl.textContent = `Error: ${err.message}`;
+  }
+}
+
+loadScenarios();
+</script>
+
+</body>
+</html>

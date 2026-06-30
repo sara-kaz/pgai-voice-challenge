@@ -1,0 +1,30 @@
+--- TAGS USED IN THIS TRANSCRIPT ---
+[CUT SHORT?] = OpenAI marked this response as interrupted partway through or right after it finished. The audio actually heard MAY end earlier than the text shown — though spot checks suggest the text is often accurate, this is a caution, not a confirmed truncation.
+---
+
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Hello? Hello, how I help you? [CUT SHORT?]
+CLINIC AGENT: Thank you for calling.
+PATIENT BOT: Hi, I call for to make, um, appointment, routine check, please.
+CLINIC AGENT: I could help with that. Would you like to create a demo patient profile first? I just need your first and last name.
+PATIENT BOT: Sorry, I no understand. What mean "demo profile"? I want just normal appointment.
+CLINIC AGENT: To book an appointment, I need to create a simple patient profile for you. This is just a basic record with your first and last name. Would you like to continue?
+PATIENT BOT: Ah, OK, yes, I say name. My first name Hassan, last name Aydin. That right?
+CLINIC AGENT: Your patient profile is set up, and your date of birth is July 4, 2000 for demo purposes. How may I help you today?
+PATIENT BOT: No, no, that not my birth. I born May 12, 1983. Please change this, OK?
+CLINIC AGENT: Thanks for letting me know. I can't update your date of birth directly but I'll let the clinic support team know you need this changed. They'll follow up with you soon.
+PATIENT BOT: Uh, OK, but now can we do appointment? I need check-up, routine, soon. You help pick time?
+CLINIC AGENT: There are no open appointments for a routine check-up this week. Would you like to try for a later date, or are you open to seeing any available provider?
+PATIENT BOT: Uh, yes, later date is OK. Any provider, I no problem. You tell me next open time?
+CLINIC AGENT: Would you like to look for appointments next week, or should I search with any available provider for the soonest opening?
+PATIENT BOT: Uh, find soonest, please. Any day, any time, OK.
+CLINIC AGENT: There are still no open appointments available this week, even with any provider. Would you like me to check for openings the following week?
+PATIENT BOT: Yes, yes, next week, check please. I wait.
+CLINIC AGENT: I found openings for a routine checkup on Wednesday, July 8th with Dr. Zbigniew Lukoski. The first three times are 2 p.m., 2.30 p.m., and 3 p.m. Do any of these work for you?
+PATIENT BOT: Uh, yes, 2 p.m. is good for me. That OK. You confirm this, please?
+CLINIC AGENT: Just to confirm, would you like to book the 2 p.m. slot on Wednesday, July 8th with Dr. Zygmunt Lukoski?
+PATIENT BOT: Yes, that right. 2 p.m. July 8. Please book.
+CLINIC AGENT: Your appointment is set for Wednesday, July 8th at 2 p.m. with Dr. Zbigniew Lukoski at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs, if you have them. Would you like a text message with your appointment details?
+PATIENT BOT: OK, thank you. Yes, text message good, please.
+[end_call requested by bot: Appointment booked for July 8 at 2 p.m. with Dr. Zbigniew Lukowski, and a text message confirmation requested.]
+[call ended by bot: Appointment booked for July 8 at 2 p.m. with Dr. Zbigniew Lukowski, and a text message confirmation requested.]

@@ -1,0 +1,19 @@
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: "Hi, I'm calling to check the time of my spouse's appointment this week. Her name is Lisa Brooks."]
+CLINIC AGENT: Okay. 
+PATIENT BOT: Sure, I can help with that. Could you tell me Lisa’s date of birth, or any other details to look up the appointment?
+CLINIC AGENT: I can help with that.
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: 'Uh, actually,']
+CLINIC AGENT: Before I check the appointment details, would you like to create a demo patient profile for Lisa?
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: "No, that's"]
+CLINIC AGENT: I just need to refer to Ma's name.
+PATIENT BOT: Right, her name is Lisa Brooks. I don’t have her date of birth though.
+CLINIC AGENT: Wiesa Brooks Patient Profile has been created.
+CLINIC AGENT: and her date of birth is July 4, 2000 for demo purposes.
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: I'm just trying to find out the time of her appointment this week. Could you let me know that?
+CLINIC AGENT: Lisa does not have any upcoming appointments scheduled this week.
+CLINIC AGENT: Would you like to book an appointment for her?
+PATIENT BOT: Oh, I see. Thanks for checking. No, that’s all I needed. Appreciate your help. Have a good one.
+[end_call requested by bot: The caller received confirmation that there are no upcoming appointments for Lisa Brooks this week and the inquiry is resolved.]
+[call ended by bot: The caller received confirmation that there are no upcoming appointments for Lisa Brooks this week and the inquiry is resolved.]

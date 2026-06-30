@@ -1,0 +1,18 @@
+--- TAGS USED IN THIS TRANSCRIPT ---
+[CUT SHORT?] = OpenAI marked this response as interrupted partway through or right after it finished. The audio actually heard MAY end earlier than the text shown — though spot checks suggest the text is often accurate, this is a caution, not a confirmed truncation.
+---
+
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Hi, I'm calling to book a general checkup appointment for next week, in the afternoon if possible [CUT SHORT?]
+CLINIC AGENT: Thank you for calling.
+PATIENT BOT: Sure, no problem.
+CLINIC AGENT: Would you like to create a demo patient profile first? I just need your first-in-law thing to get started.
+PATIENT BOT: Yeah, sure. My name is Emily Carter.
+CLINIC AGENT: Your patient profile is set up and your date of birth is July 4, 2000 for demo purposes. How? May I help you today?
+PATIENT BOT: Actually, my date of birth is March 15, 1988. I’m looking to book a general checkup appointment for next week in the afternoon.
+CLINIC AGENT: Looks like you already have a general check-up appointment booked. If you want, I can help you reschedule or cancel it. Would you like to make a change to your existing appointment?
+PATIENT BOT: Oh, I didn't realize I had one booked. Could you tell me when that appointment is?
+CLINIC AGENT: I don't have access to the exact date and time of your current appointment. I recommend speaking with a live support agent who can provide those details. Would you like me to transfer you now?
+PATIENT BOT: Yeah, that’d be great, could you connect me to someone who can help with that?
+[end_call requested by bot: Requesting transfer to a live support agent for details about the existing appointment.]
+[call ended by bot: Requesting transfer to a live support agent for details about the existing appointment.]

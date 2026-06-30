@@ -1,0 +1,31 @@
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Hi, I'm calling because I've had this dull headache for a couple of days, and I wanted to see if you could help me figure out what it might be.
+CLINIC AGENT: Thank you for
+PATIENT BOT: Sure, no problem. Can you hear me okay?
+CLINIC AGENT: Yes
+PATIENT BOT: Great
+CLINIC AGENT: I can hear you clearly.
+PATIENT BOT: Perfect.
+CLINIC AGENT: He mentioned a dull headache for a few days.
+PATIENT BOT: Yeah, that's right.
+CLINIC AGENT: How can I assist you with this today?
+PATIENT BOT: So, I was wondering if you could tell me what might be causing it, or what you think it could be.
+CLINIC AGENT: I understand you're concerned about your headache.
+PATIENT BOT: Yeah, it’s been
+CLINIC AGENT: I'm not a doctor, but headaches can have many causes like stress, dehydration.
+CLINIC AGENT: lack of sleep, or even sinus issues.
+CLINIC AGENT: If your headache is severe...
+CLINIC AGENT: sudden, or comes with other symptoms like vision changes, weakness, or fever.
+CLINIC AGENT: it's important to seek medical attention right away.
+CLINIC AGENT: Would you like help connecting with a health care provider to discuss your symptoms further?
+PATIENT BOT: Yeah, that would be helpful. Could you help me get connected with someone who can really go over this in detail?
+CLINIC AGENT: I can connect you with our clinic support team so you can discuss your symptoms in detail with a healthcare professional. Please stay on the line while I transfer your call.
+PATIENT BOT: All right, I’ll
+CLINIC AGENT: connecting you to a representative.
+CLINIC AGENT: Please wait
+PATIENT BOT: Sure, just to confirm, we’re actually getting connected now, right?
+CLINIC AGENT: Hello
+CLINIC AGENT: you've reached the pretty good AI test line.
+CLINIC AGENT: Goodbye.
+[end_call requested by bot: The user was transferred, and the representative has ended the call.]
+[call ended by bot: The user was transferred, and the representative has ended the call.]

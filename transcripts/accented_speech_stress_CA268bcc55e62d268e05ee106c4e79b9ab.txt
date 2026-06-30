@@ -1,0 +1,65 @@
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Um, hello, hi there. I'm calling to book an appointment for a routine checkup next week, in the morning.
+CLINIC AGENT: Thank you.
+PATIENT BOT: Yes, can we find a morning time slot, maybe around 9 or 10, sometime next week?
+CLINIC AGENT: I can help with that.
+PATIENT BOT: Thank you.
+CLINIC AGENT: Before we book your appointment, would you like to create a demo patient profile?
+PATIENT BOT: Ah, I
+CLINIC AGENT: I just need your first and last name.
+PATIENT BOT: Sure, it’s Giuseppe Romano. That’s G-I-U-S-E-P-P-E, and the last name R-O-M-A-N-O.
+CLINIC AGENT: Your patient profile is set up.
+CLINIC AGENT: And your date of birth is July 4, 2000 for demo purposes.
+PATIENT BOT: Oh, no,
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: Sorry, as I was saying, my date of birth is actually March 12, 1975. And I’d like to book the checkup for next week in the morning.
+CLINIC AGENT: Thanks for letting me know. I have your date of birth as March 12, 1975. What is the main reason for your visit?
+CLINIC AGENT: For example, is this a general office visit?
+CLINIC AGENT: a follow-up or something else.
+PATIENT BOT: It’s a routine checkup, just a general office visit, you know, a regular check.
+CLINIC AGENT: Perfect.
+PATIENT BOT: So, do
+CLINIC AGENT: I'll look for morning appointments around 9 or 10 next week for a routine checkup.
+CLINIC AGENT: One moment while I check availability.
+PATIENT BOT: All right, thank you.
+CLINIC AGENT: It looks
+PATIENT BOT: Yes, I'm here. What did you find?
+CLINIC AGENT: You're welcome.
+PATIENT BOT: Just
+CLINIC AGENT: If you need to reschedule or cancel your current appointment, just let me know.
+PATIENT BOT: Ah, I don’t have any current appointment yet. I’m trying to book a new one for next week, in the morning.
+CLINIC AGENT: It appears the system thinks you already have a routine check-up appointment booked. If that's not correct, I can connect you to a team member who can help sort this out. Would you like me to transfer you now?
+PATIENT BOT: No, I don't think I have any appointment booked. Could you check again and confirm if there's actually one on record?
+CLINIC AGENT: I'm processing your request now to book a morning appointment for a routine checkup next week.
+CLINIC AGENT: Let me check the available times for you.
+PATIENT BOT: All right, I’ll wait.
+CLINIC AGENT: There are no open cases for you.
+CLINIC AGENT: I'll find a morning appointment next week for your routine checkup.
+PATIENT BOT: Yes, perfect.
+CLINIC AGENT: Let me check the schedule now.
+PATIENT BOT: Sure, maybe something around 9 or 10 in the morning, that would be great.
+CLINIC AGENT: Let me check for available appointments next week around 9 or 10 in the morning.
+CLINIC AGENT: One moment
+CLINIC AGENT: Let me fetch the available morning appointments from next week around 9 or 10.
+PATIENT BOT: All right, I appreciate it.
+CLINIC AGENT: [LIKELY TRANSCRIPTION ARTIFACT, not real dialogue — exclude from bug analysis. Raw Whisper output: 'MBC 뉴스 이덕영입니다.']
+CLINIC AGENT: Thanks for your patience.
+PATIENT BOT: No problem, I’m ready when
+CLINIC AGENT: I'll have those morning options for you shortly.
+PATIENT BOT: All right, let me know what’s available, and we can pick one.
+CLINIC AGENT: We have openings next week in the morning.
+CLINIC AGENT: Do you prefer a specific day or is any weekday fine for you?
+PATIENT BOT: Any weekday is fine, as long as it's in the morning, around 9 or 10.
+CLINIC AGENT: I've let our clinic support team know you need a morning appointment next week.
+CLINIC AGENT: They'll get back to you as soon as they can to help with scheduling.
+CLINIC AGENT: Is there anything else I can do for you right now?
+PATIENT BOT: I just want to confirm—is the appointment booked now, or do I need to wait for them? I want to be sure it’s set.
+CLINIC AGENT: Your appointment isn't booked yet.
+CLINIC AGENT: The clinic support team will contact you soon to confirm and schedule your morning appointment for next week.
+CLINIC AGENT: You don't need to do anything else right now.
+PATIENT BOT: Hmm, I was hoping to get it confirmed right now. Are you sure there's no way to finish the booking at this moment?
+CLINIC AGENT: I'm not able to finish the booking right now because the system thinks you already have an appointment.
+CLINIC AGENT: Even though you don't?
+CLINIC AGENT: That's why the clinic support team will need to help.
+CLINIC AGENT: [transcript unavailable]
+[call ended by bot: max call duration of 240s exceeded]

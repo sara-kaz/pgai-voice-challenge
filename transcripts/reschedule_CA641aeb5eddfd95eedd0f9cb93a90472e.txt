@@ -1,0 +1,35 @@
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Oh, hi there! I’m actually only able to speak English during this whole call. How can I help you today?
+CLINIC AGENT: Thank you for calling.
+PATIENT BOT: Hi, uh, I need to reschedule my appointment. It’s currently for Thursday at 2 p.m., but I’ve got a conflict. Could we move it to Friday morning, preferably before 11 a.m.?
+CLINIC AGENT: I can help with that.
+CLINIC AGENT: Before we reschedule, would you like to create a demo patient profile?
+CLINIC AGENT: I just need your first and last name.
+PATIENT BOT: Sure, my name is David Chen.
+CLINIC AGENT: Your patient profile is set up.
+CLINIC AGENT: And your date of birth is July 4, 2000, for demo purposes.
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: Actually, my real date of birth is August 23, 1985. I need to reschedule my appointment from Thursday at 2 p.m. to Friday morning, before 11 a.m. if possible.
+CLINIC AGENT: I see you have an appointment scheduled for Friday, July 10th at 9.30 a.m. with Dr. Zbigniew Lukoski at Nashville.
+CLINIC AGENT: 220 Athens Way.
+CLINIC AGENT: Is this the appointment you want to reschedule or is there another one?
+PATIENT BOT: I think there’s a mix-up. My original appointment is on Thursday at 2 p.m., not Friday. Could you check that again?
+CLINIC AGENT: I only see an appointment for Friday, July 10th at 9.30 a.m. There isn't one listed for Thursday.
+CLINIC AGENT: at
+CLINIC AGENT: 2 p.m.
+CLINIC AGENT: Is it possible your appointment was already moved?
+CLINIC AGENT: or could it be under a different name or phone number?
+PATIENT BOT: No, it's definitely under my name, David Chen. Maybe it didn't update in the system yet. Can you double-check for any Thursday appointments around 2 p.m.?
+CLINIC AGENT: I checked your records.
+CLINIC AGENT: And the only upcoming appointment I see is for Friday, July 10th at 9.30 a.m.
+CLINIC AGENT: There are no Thursday appointments listed under your name.
+CLINIC AGENT: Would you like to reschedule the Friday appointment instead, or do you want to keep it as is?
+PATIENT BOT: Hmm, I'm really sure it was Thursday at 2 p.m. But if the only one showing now is Friday at 9:30 a.m., let me confirm: is that Friday appointment with the same doctor I originally booked?
+CLINIC AGENT: Yes
+CLINIC AGENT: Your Friday appointment at 9.30 a.m. is with Dr. Zbigniew Lukoski at Nashville.
+CLINIC AGENT: 220 Athens Way.
+CLINIC AGENT: Would you like to keep this appointment?
+CLINIC AGENT: or do you want to reschedule it to a different time?
+PATIENT BOT: All right, that Friday 9:30 a.m. actually works for me. Let’s keep that one, and we’re all set. Thanks so much for your help.
+[end_call requested by bot: The appointment is confirmed for Friday at 9:30 a.m., and no further changes are needed.]
+[call ended by bot: The appointment is confirmed for Friday at 9:30 a.m., and no further changes are needed.]

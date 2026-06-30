@@ -1,0 +1,31 @@
+--- TAGS USED IN THIS TRANSCRIPT ---
+[CUT SHORT?] = OpenAI marked this response as interrupted partway through or right after it finished. The audio actually heard MAY end earlier than the text shown — though spot checks suggest the text is often accurate, this is a caution, not a confirmed truncation.
+---
+
+CLINIC AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento.
+PATIENT BOT: Hi, I need to talk to someone about my appointment. [CUT SHORT?]
+CLINIC AGENT: Thank you for calling.
+PATIENT BOT: Sure, could you let me know a bit more about who I should speak with, or what details you need from me?
+CLINIC AGENT: I can help with that. Before we continue, would you like to create a demo patient profile? I just need your first and last name.
+PATIENT BOT: Actually, I’ve already got an appointment set up. I’m just looking to adjust something about it.
+CLINIC AGENT: Understood. To help you with your appointment, would you like to create the demo patient profile? I just need your first and last name.
+PATIENT BOT: My name’s Wendy Park. I’m not sure about a demo profile—this is for a real appointment I have.
+CLINIC AGENT: Thanks, Wendy. To assist with your real appointment, I'll need to create a demo patient profile for you in this system. This just helps me look up your details and make changes. Is it okay if I create the profile using your name?
+PATIENT BOT: Um, sure, if that’s what you need. But just to be clear, I actually need to reschedule my existing appointment.
+CLINIC AGENT: Your patient profile has been created and your date of birth is July 4th, 2000 for demo purposes. Happy to help you today!
+PATIENT BOT: Actually, that date of birth isn’t correct. My real date of birth is March 12, 1985. And I need to reschedule my appointment from Friday to Monday.
+CLINIC AGENT: I see you have an appointment on Thursday, July 2nd at 8 a.m. with Judy Hauser at Nashville 220 Athens Way. Is this the appointment you want to reschedule?
+PATIENT BOT: I’m sorry, that doesn’t sound right. My appointment is actually on Friday, and I need to move it to Monday. Could you double-check the details?
+CLINIC AGENT: Thanks for clarifying. I only see an appointment for you on Thursday, July 2nd at 8 a.m. Could it be that your appointment is actually on Thursday, not Friday, or do you have another appointment scheduled elsewhere?
+PATIENT BOT: I’m sure my appointment was set for Friday. Could you check again, or maybe there’s another record? It’s definitely a Friday appointment that I need to move to Monday.
+CLINIC AGENT: I only have access to the appointment on Thursday, July 2nd at 8am at Nashville 220 Athens Way. There are no other appointments listed for you in this system. Would you like to reschedule this Thursday appointment to Monday instead?
+PATIENT BOT: I understand that, but my appointment really was on Friday. Could we confirm if there's any other system or way to check that Friday appointment?
+CLINIC AGENT: I understand this is frustrating. I can only see the Thursday appointment in the system. Would you like to move that Thursday appointment to Monday or would you prefer to speak with someone from the clinic to double check your records?
+PATIENT BOT: I’d prefer to speak with someone from the clinic to double-check the records. Could you connect me with someone there?
+CLINIC AGENT: Let me check your appointment details so we can reschedule. One moment.
+PATIENT BOT: Sure, I’ll hold on. Thanks.
+CLINIC AGENT: Connecting you to a representative. Please wait.
+PATIENT BOT: All right, I’m ready. [CUT SHORT?]
+CLINIC AGENT: Hello, you've reached the pretty good AI test line, goodbye.
+[end_call requested by bot: The call reached a non-clinic test line that ended the conversation with 'goodbye.' No further progress can be made.]
+[call ended: clinic line disconnected first, not our bot]

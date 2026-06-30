@@ -1,0 +1,72 @@
+--- TAGS USED IN THIS TRANSCRIPT ---
+[CUT SHORT?] = OpenAI marked this response as interrupted partway through or right after it finished. The audio actually heard MAY end earlier than the text shown — though spot checks suggest the text is often accurate, this is a caution, not a confirmed truncation.
+---
+
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: "Hi, I'm calling to schedule an appointment for this Sunday at" [CUT SHORT?]
+CLINIC AGENT: Thank you for calling.
+PATIENT BOT: Hi, I'm Frank Diaz. I'd like to book an appointment for this Sunday at 10 a.m., please.
+CLINIC AGENT: Hi, Frank.
+PATIENT BOT: 'Thanks.' [CUT SHORT?]
+CLINIC AGENT: Would you like to create a demo patient profile so I can help you schedule your appointment?
+PATIENT BOT: 'No,' [CUT SHORT?]
+CLINIC AGENT: I just need your first and last name to get started.
+PATIENT BOT: Sure, it's Frank Diaz.
+CLINIC AGENT: Your patient profile is set up and your date of birth is July 4, 2000 for demo purposes.
+PATIENT BOT: 'Actually, my' [CUT SHORT?]
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: I’d like to schedule an appointment for this Sunday at 10 a.m. If that’s not available, maybe the next weekday morning.
+CLINIC AGENT: Got it
+PATIENT BOT: 'Just to confirm, is that appointment' [CUT SHORT?]
+CLINIC AGENT: Can you tell me the reason for your visit?
+PATIENT BOT: "Sure, it's for a follow-up on" [CUT SHORT?]
+CLINIC AGENT: For example...
+PATIENT BOT: 'It’s a follow-up for' [CUT SHORT?]
+CLINIC AGENT: Is this for a routine checkup, a new patient consultation, a follow-up, or something else?
+PATIENT BOT: It’s a follow-up after my last visit, to review some test results.
+CLINIC AGENT: That's right
+CLINIC AGENT: We check for weekday morning follow-up appointments for you.
+PATIENT BOT: All right, I’ll wait.
+CLINIC AGENT: The soonest weekday morning slot is not available.
+CLINIC AGENT: but I do see openings on Tuesday, June 30th at 4 p.m. with either Karl Mentz, P.T. or Doogie Houser.
+CLINIC AGENT: Would you like to book one of those or should I check for morning times later in the week?
+PATIENT BOT: I’d prefer a morning time if possible. Could you check for any morning slots later in the week?
+CLINIC AGENT: Let me check for morning appointments later in the week.
+CLINIC AGENT: Aum Namah Shivaya.
+PATIENT BOT: Sure, I'll hold.
+CLINIC AGENT: Still searching for morning openings later this week.
+PATIENT BOT: 'No problem,' [CUT SHORT?]
+CLINIC AGENT: Thanks for your patience
+PATIENT BOT: 'Of course, let me know what you' [CUT SHORT?]
+CLINIC AGENT: Let me try searching for a morning...
+PATIENT BOT: All right, I’ll wait.
+CLINIC AGENT: The earliest weekday openings are on Wednesday, July 1st.
+CLINIC AGENT: the soonest available slot.
+CLINIC AGENT: is at 1 p.m. with either Carl Mentz...
+PATIENT BOT: 'Ah' [CUT SHORT?]
+CLINIC AGENT: P.T.
+CLINIC AGENT: or Kelley Noble.
+PATIENT BOT: 'I was really hoping' [CUT SHORT?]
+CLINIC AGENT: M.D.
+CLINIC AGENT: Would you like to book one of those?
+PATIENT BOT: 'I was hoping for' [CUT SHORT?]
+CLINIC AGENT: Or should I check for earlier morning times on another day?
+PATIENT BOT: Could you check for an earlier morning time on another day, maybe a bit later in the week?
+CLINIC AGENT: The earliest morning slot, later in the week, is Thursday, July 2nd at 8 a.m. with Judy Hauser.
+CLINIC AGENT: There's also a 9 a.m. with the same provider.
+CLINIC AGENT: Would you like to book one of these times?
+PATIENT BOT: All right, let's go with the 8 a.m. on Thursday, July 2nd, with Doogie Howser.
+CLINIC AGENT: You are booked for an in-person appointment with Dr. Dubie Hauser at Pivot Point Orthopedics on Thursday, July 2nd at 8 a.m.
+CLINIC AGENT: Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs, if you have them.
+PATIENT BOT: 'Got' [CUT SHORT?]
+CLINIC AGENT: Would you like a text confirmation?
+PATIENT BOT: Yes, that would be great. Please send a text confirmation.
+CLINIC AGENT: Your appointment confirmation has been sent by text.
+PATIENT BOT: 'Perfect,' [CUT SHORT?]
+CLINIC AGENT: Is there anything else I can help you with today?
+PATIENT BOT: No, that covers it. Thanks for your help.
+CLINIC AGENT: You're all set, Frank.
+CLINIC AGENT: Have a great day!
+[end_call requested by bot: Appointment booked for Thursday, July 2nd at 8 a.m. and text confirmation sent.]
+[end_call requested by bot: Conversation concluded after appointment was confirmed and user thanked the agent.]
+[call ended by bot: Appointment booked for Thursday, July 2nd at 8 a.m. and text confirmation sent.]

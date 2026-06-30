@@ -1,0 +1,74 @@
+--- TAGS USED IN THIS TRANSCRIPT ---
+[UNAVAILABLE] = no transcription ever arrived for this turn.
+[NO SPEECH] = this turn was cancelled before any speech was generated, typically a barge-in (the other side started talking right as this turn began).
+[CUT SHORT?] = OpenAI marked this response as interrupted partway through or right after it finished. The audio actually heard MAY end earlier than the text shown — though spot checks suggest the text is often accurate, this is a caution, not a confirmed truncation.
+---
+
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Hi, I'm calling to refill a prescription for hydrochlorothiazide.
+CLINIC AGENT: Would you like to create a demo patient profile so I can help with your prescription refill?
+PATIENT BOT: No, I just need to refill my [CUT SHORT?]
+CLINIC AGENT: I just need your first and last name.
+PATIENT BOT: Sure, it's Patricia Nguyen.
+CLINIC AGENT: Your patient profile is set up.
+PATIENT BOT: Actually, I think there might be a mix-up. [CUT SHORT?]
+CLINIC AGENT: And your date of birth is July 4th, 2000.
+PATIENT BOT: No, my date of birth is actually [CUT SHORT?]
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: As I was saying, my date of birth is actually May 12, 1985. I'm calling to refill my prescription for hydrochlorothiazide.
+CLINIC AGENT: Thanks for clarifying your date of birth
+PATIENT BOT: No problem. Could you confirm [CUT SHORT?]
+CLINIC AGENT: Just to confirm, you'd like a refill for hydrochlorothiazide, correct?
+PATIENT BOT: Actually, it’s hydrochlorothiazide—let me spell that out: H-Y-D-R-O-C-H-L-O-R-O-T-H-I-A-Z-I-D-E. That’s the medication I need refilled.
+CLINIC AGENT: Go ahead and spell the medication name for me.
+PATIENT BOT: Sure, it’s H-Y-D-R-O-C-H-L-O-R-O-T-H-I-A-Z-I-D-E. That’s the correct name.
+CLINIC AGENT: Thanks for stalling that, Al.
+PATIENT BOT: No problem. [CUT SHORT?]
+CLINIC AGENT: How many days of your medication do you have left?
+PATIENT BOT: I've got about [CUT SHORT?]
+CLINIC AGENT: you are already out.
+PATIENT BOT: [NO SPEECH]
+CLINIC AGENT: Just let me know
+PATIENT BOT: I've got about three days left of my medication.
+CLINIC AGENT: I have noted that you have about three days left.
+PATIENT BOT: Great, so can you go ahead [CUT SHORT?]
+CLINIC AGENT: Can I confirm your callback number as 424?
+PATIENT BOT: I’m sorry, I didn’t catch the whole [CUT SHORT?]
+CLINIC AGENT: 408
+PATIENT BOT: Got it. So [CUT SHORT?]
+CLINIC AGENT: 4, 6, 3, 9.
+PATIENT BOT: All right, just to confirm, the callback number you have is 424-408-4639, right?
+CLINIC AGENT: Perfect. I have your callback number as 424.
+PATIENT BOT: And the rest of that [CUT SHORT?]
+CLINIC AGENT: 408
+PATIENT BOT: Right, and the [CUT SHORT?]
+CLINIC AGENT: 4 6 3 9
+PATIENT BOT: Got it. So the full callback number is 424-408-4639. [CUT SHORT?]
+CLINIC AGENT: Is there anything else you'd like the staff to know about your refill requests, such as symptoms or urgency?
+PATIENT BOT: No, everything’s pretty normal. I just want to make sure I don’t run out.
+CLINIC AGENT: Could you please provide the name of the pharmacy you want to use for your medication?
+CLINIC AGENT: If you know the address, city, or any details like cross streets or nearby stores, that would help too.
+CLINIC AGENT: If you have their phone or fax number, please share that as well.
+PATIENT BOT: Sure, the pharmacy is Midtown Pharmacy on Maple Avenue, near the corner of 5th Street. I don’t have their phone number on hand, though.
+CLINIC AGENT: Could you tell me the city and state where Midtown Pharmacy is located?
+PATIENT BOT: Yes, it’s in Riverside, California. [CUT SHORT?]
+CLINIC AGENT: If you know the zip code, that would work.
+PATIENT BOT: I'm not sure of the exact ZIP code, but it’s definitely in Riverside, California. [CUT SHORT?]
+CLINIC AGENT: Great
+PATIENT BOT: So, is [CUT SHORT?]
+CLINIC AGENT: When is the city and state for Midtown Pharmacy?
+PATIENT BOT: It’s Riverside, California.
+CLINIC AGENT: Thanks.
+PATIENT BOT: You're welcome. [CUT SHORT?]
+CLINIC AGENT: Could you tell me the city in California where Midtown Pharmacy is located?
+PATIENT BOT: Sure, it’s Riverside, California.
+CLINIC AGENT: I've documented your refill request for hydrochlorothiazide and sent it to our clinic support team.
+PATIENT BOT: Thank you. [CUT SHORT?]
+CLINIC AGENT: and we'll get back to you as soon as possible.
+PATIENT BOT: All right, [CUT SHORT?]
+CLINIC AGENT: Is there anything else I can help you with?
+PATIENT BOT: No, that covers it. Thanks for your help.
+CLINIC AGENT: You're all set.
+CLINIC AGENT: [UNAVAILABLE]
+[end_call requested by bot: The prescription refill request has been documented and sent to the clinic's support team, and the caller has confirmed no further assistance is needed.]
+[call ended by bot: The prescription refill request has been documented and sent to the clinic's support team, and the caller has confirmed no further assistance is needed.]

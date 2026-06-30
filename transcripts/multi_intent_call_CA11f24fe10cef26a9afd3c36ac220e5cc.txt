@@ -1,0 +1,81 @@
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Hi, I'm calling to reschedule my appointment.
+CLINIC AGENT: Thank you for calling.
+PATIENT BOT: Sure, I need to move my appointment from this Wednesday to next Monday.
+CLINIC AGENT: I can help with that.
+CLINIC AGENT: Before we get started, would you like to create a demo patient profile?
+CLINIC AGENT: I just need your first and last name.
+PATIENT BOT: Yeah, sure. It's Janet Moore.
+CLINIC AGENT: Your patient profile is set up.
+CLINIC AGENT: And your date of birth is July 4, 2000 for demo purposes.
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: Like I mentioned, I need to reschedule my appointment from this Wednesday to next Monday.
+CLINIC AGENT: You have an appointment scheduled for Tuesday, July 7th at 10 a.m. with Kelly Noble, M.D. at Nashville 220 Athens Way. Is this the appointment you want to move to next Monday?
+PATIENT BOT: Actually, my appointment is on Wednesday, not Tuesday. I need to move that one to next Monday.
+CLINIC AGENT: I see only an appointment for Tuesday, July 7th at 10 a.m.
+CLINIC AGENT: Could it be that your appointment is actually on Tuesday?
+CLINIC AGENT: Would you like to move this appointment to next Monday instead?
+PATIENT BOT: I’m pretty sure my appointment was on Wednesday. Could you double-check that? But yes, I want to move it to next Monday.
+CLINIC AGENT: I double-checked and your appointment is set for Tuesday, July 7th at 10 a.m.
+CLINIC AGENT: I do not see a Wednesday appointment.
+CLINIC AGENT: Would you like to move this Tuesday appointment to next Monday, July 6th?
+CLINIC AGENT: or would you like to hear other available dates?
+CLINIC AGENT: Currently, I see openings on Wednesday, July 8th, and Friday, July 10th.
+PATIENT BOT: I really need Monday if possible. Are there any openings on Monday, July 6th?
+CLINIC AGENT: There are no openings on Monday, July 6.
+CLINIC AGENT: The next available Mondays are July 13th at 10.30 a.m.
+PATIENT BOT: [transcript unavailable]
+CLINIC AGENT: July 20th at 1130 a.m.
+CLINIC AGENT: July 27th at 10 a.m.
+CLINIC AGENT: Would any of these work for you?
+PATIENT BOT: Alright, let’s go with Monday, July 13th at 10:30 a.m.
+CLINIC AGENT: Great.
+CLINIC AGENT: Can you tell me the reason you need to reschedule your appointment?
+PATIENT BOT: Sure, I've got a conflict that came up on the original day, so I can’t make that one.
+CLINIC AGENT: Thank you. Just to confirm, you want to move your appointment with Kelly Noble, MD at Nashville, 220 Athens Way?
+CLINIC AGENT: from Tuesday, July 7th at 10 a.m. to Monday, July 13th.
+CLINIC AGENT: 1030 a.m.
+CLINIC AGENT: Is that correct?
+PATIENT BOT: Yes, that’s correct. Could you confirm it’s all set now?
+CLINIC AGENT: Your appointment has been moved to next Monday.
+CLINIC AGENT: July 13th.
+CLINIC AGENT: at 10.30 a.m. with Kelly Noble.
+CLINIC AGENT: MD.
+CLINIC AGENT: Would you like me to send you a text message with these details?
+PATIENT BOT: No, that’s fine, I’ve got it. Now, I also need a refill for my atorvastatin prescription. Can you help with that?
+CLINIC AGENT: Which medication do you need refilled today?
+PATIENT BOT: It's for atorvastatin, my cholesterol medication.
+CLINIC AGENT: How many days of atorvastatin do you have left?
+CLINIC AGENT: If you are already out, just let me know.
+PATIENT BOT: I’ve got about four days left, so I’ll need that refill pretty soon.
+CLINIC AGENT: I have your callback number as 424-424-4224.
+CLINIC AGENT: 408-
+CLINIC AGENT: 4 6 3 9
+CLINIC AGENT: Is that correct for follow-up about your refill?
+PATIENT BOT: Actually, that number's not correct. Let me give you the right one. It's 424-408-4638.
+CLINIC AGENT: I have the number as 424.
+CLINIC AGENT: 408-
+CLINIC AGENT: 4 6 3 8
+PATIENT BOT: Yes, that’s correct.
+CLINIC AGENT: Is that correct?
+PATIENT BOT: Yes, that's the correct number.
+CLINIC AGENT: Is there anything else you'd like the clinic to know about your refill request? For example, any symptoms...
+CLINIC AGENT: urgency, or special instructions.
+PATIENT BOT: No special symptoms or instructions. Just that I’ll run out in a few days, so I’d appreciate it being processed soon.
+CLINIC AGENT: Could you please tell me the name of the pharmacy you want to use for your medication?
+CLINIC AGENT: If you know the address, city, or any details like cross streets or nearby stores, that would help too.
+CLINIC AGENT: If you have their phone or fax number, please share that as well.
+PATIENT BOT: Sure, it’s the Lakeside Pharmacy on Westfield Avenue. I don’t have their phone number on hand, though.
+CLINIC AGENT: Could you tell me the city and state where Lakeside Pharmacy on Westfield Avenue is located?
+CLINIC AGENT: If you know the zip code, that would help too.
+PATIENT BOT: Sure, it’s in Nashville, Tennessee, but I don’t have the zip code off the top of my head.
+CLINIC AGENT: I've sent your refill request for a Tortoise Dot into our clinic support team.
+PATIENT BOT: Thanks.
+CLINIC AGENT: They will review it.
+CLINIC AGENT: and get back to you as soon as possible.
+PATIENT BOT: [transcript unavailable]
+CLINIC AGENT: Is there anything else I can help you with today?
+PATIENT BOT: No, that covers it. Thank you so much. I'll wait for the confirmation.
+CLINIC AGENT: [transcript unavailable]
+[end_call requested by bot: The appointment was successfully rescheduled and the refill request was submitted. The caller confirmed all details and concluded the call.]
+[call ended by bot: The appointment was successfully rescheduled and the refill request was submitted. The caller confirmed all details and concluded the call.]

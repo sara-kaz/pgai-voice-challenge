@@ -1,0 +1,7 @@
+CLINIC AGENT: Esta llamada puede ser grabada para propósitos de calidad y entrenamiento. Para Español, oprima el 2.
+PATIENT BOT: Hi, I'm calling to check if you accept Aetna insurance, and if not, what the cost for a standard visit would be for self-pay.
+CLINIC AGENT: I can help with that. Before we continue, would you like to create a demo patient profile? I just need your first and last name. This will help me provide more accurate information.
+PATIENT BOT: Oh, no, I’m not looking to set up a profile right now. I just want to know if you take Aetna insurance or what the self-pay cost would be.
+CLINIC AGENT: No problem. You can scan the QR code at the booth to create a profile later if you decide to. For your question about Aetna, insurance, and self-pay costs, I don't have access to that information without a patient profile. Please check with the front desk staff at the booth for details on accepted insurance and pricing. Have a great day.
+PATIENT BOT: Oh, wait, I'm on the phone right now, not at a booth. Could you let me know if there's someone I can speak with directly to get that information about the insurance and the self-pay rate?
+[call ended: clinic line disconnected first, not our bot]

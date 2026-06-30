@@ -1,0 +1,25 @@
+CLINIC AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento. Para Español, oprima el 2.
+PATIENT BOT: Oh, hi, I’m fine with English. I’d like to book a general checkup appointment, please.
+CLINIC AGENT: to help you book a general check-up.
+PATIENT BOT: Oh, sure,
+CLINIC AGENT: I'll need to create a demo patient profile for you.
+PATIENT BOT: Yeah, it's Emily Carter.
+CLINIC AGENT: May I have your first and last name?
+PATIENT BOT: Actually, my
+CLINIC AGENT: Your patient profile is set up and your date of birth is July 4, 2000 for demo purposes.
+PATIENT BOT: I need to correct that—my date of birth is March 15, 1988. And I’m looking to book a general checkup for next week, afternoon if possible.
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: Oh, I’m not
+CLINIC AGENT: Looks like you already have a general checkup appointment booked.
+PATIENT BOT: I actually
+CLINIC AGENT: If you'd like, I can help you reschedule or cancel it.
+CLINIC AGENT: Would you like to make a change to your existing appointment?
+PATIENT BOT: I’m not sure about that appointment. Could you tell me when it’s scheduled for?
+PATIENT BOT: Oh, got
+CLINIC AGENT: I don't have access to your current appointment details.
+PATIENT BOT: Alright, I
+CLINIC AGENT: I recommend speaking with a live support agent who can look up your schedule and help you with any changes.
+PATIENT BOT: Yes, please go ahead and transfer me, that would be great. Thanks.
+[end_call requested by bot: User requested to be transferred to a live support agent for appointment details.]
+CLINIC AGENT: Would you like me to transfer you now?
+[call ended by bot: User requested to be transferred to a live support agent for appointment details.]

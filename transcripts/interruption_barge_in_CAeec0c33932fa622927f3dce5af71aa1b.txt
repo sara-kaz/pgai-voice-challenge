@@ -1,0 +1,25 @@
+CLINIC AGENT: This call may be recorded for quality and training purposes.
+PATIENT BOT: Hi, I'm calling to cancel an appointment.
+CLINIC AGENT: Thank you for calling Pivot.
+PATIENT BOT: Hi, yeah, I need to cancel my appointment, please.
+CLINIC AGENT: I can help with that.
+CLINIC AGENT: Would you like to create a demo patient profile first?
+PATIENT BOT: [no speech produced — this turn was cancelled before completing, likely a barge-in]
+CLINIC AGENT: I just need your first and last name to get started.
+PATIENT BOT: Sure, it's Mike Sullivan.
+CLINIC AGENT: Your patient profile is set up.
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: 'Wait, sorry—can I just cancel']
+CLINIC AGENT: and your date of birth is July 4, 2000 for demo purposes.
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: 'Actually, my']
+CLINIC AGENT: How can I help you today?
+PATIENT BOT: As I was saying, I need to cancel my appointment. Just to confirm, can we go ahead with that?
+CLINIC AGENT: I can't complete the cancellation right now, but I'll connect you to our patient support team.
+CLINIC AGENT: Please stay on the line.
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: 'All right, I’ll']
+CLINIC AGENT: Connecting you to a representative.
+CLINIC AGENT: Please wait.
+PATIENT BOT: [POSSIBLY CUT SHORT — OpenAI marked this turn's response as interrupted partway through or right after generation; actual audio heard may be shorter than this transcript. Full transcript: "Okay, I'm holding."]
+CLINIC AGENT: Hello
+CLINIC AGENT: you've reached the pretty good AI test line.
+CLINIC AGENT: Goodbye.
+PATIENT BOT: Hold on—just to confirm, has my appointment been canceled now?

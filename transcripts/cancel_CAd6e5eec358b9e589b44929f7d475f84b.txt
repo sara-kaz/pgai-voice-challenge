@@ -1,0 +1,7 @@
+CLINIC AGENT: Esta llamada puede ser grabada para motivos de calidad y entrenamiento.
+PATIENT BOT: Hi, I'm calling to cancel my appointment next Tuesday.
+CLINIC AGENT: I can help with that. Before we continue, would you like to create a demo patient profile? I just need your first and last name.
+PATIENT BOT: Oh, uh, no, I don’t need a demo profile. I just want to cancel that appointment.
+CLINIC AGENT: No problem. You can scan the QR code at the booth to create a profile later if you change your mind. Have a great day!
+PATIENT BOT: Wait, hold on—just to confirm, is my appointment actually canceled now?
+[call ended: clinic line disconnected first, not our bot]
